@@ -9,4 +9,7 @@ describe 'fizzbuzz' do
   it '"fizzbuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
+  it 'fizzbuzz "19" when passed 19' do
+    expect(fizzbuzz(19)).to eq 19
+  end
 end
